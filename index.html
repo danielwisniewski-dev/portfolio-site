@@ -1,48 +1,207 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Daniel Wisniewski</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 80px;
-      background: #f4f4f4;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daniel Wisniewski</title>
 
-    h1 {
-      font-size: 42px;
-    }
+<style>
 
-    p {
-      font-size: 20px;
-      color: #555;
-    }
+body {
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background:#0f1115;
+    color:#e5e7eb;
+}
 
-    a {
-      display: inline-block;
-      margin: 10px;
-      font-size: 18px;
-      color: #0077cc;
-      text-decoration: none;
-    }
-  </style>
+.container {
+    max-width:1100px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.hero {
+    display:flex;
+    align-items:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.hero img {
+    width:220px;
+    border-radius:10px;
+}
+
+.hero-text h1 {
+    font-size:42px;
+    margin:0;
+}
+
+.hero-text h2 {
+    font-weight:400;
+    color:#9ca3af;
+    margin-top:8px;
+}
+
+.hero-text p {
+    margin-top:16px;
+    font-size:18px;
+    line-height:1.6;
+}
+
+.buttons {
+    margin-top:20px;
+}
+
+.buttons a {
+    text-decoration:none;
+    margin-right:12px;
+    padding:10px 16px;
+    border-radius:6px;
+    background:#1f2937;
+    color:white;
+    font-weight:500;
+}
+
+.buttons a:hover {
+    background:#374151;
+}
+
+.section {
+    margin-top:70px;
+}
+
+.section h3 {
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+.cards {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card {
+    background:#1a1d24;
+    padding:20px;
+    border-radius:10px;
+}
+
+.card h4 {
+    margin-top:0;
+}
+
+.footer {
+    margin-top:80px;
+    font-size:14px;
+    color:#6b7280;
+}
+
+</style>
 </head>
 
 <body>
 
+<div class="container">
+
+<div class="hero">
+
+<img src="headshot.jpg" alt="Daniel Wisniewski">
+
+<div class="hero-text">
+
 <h1>Daniel Wisniewski</h1>
 
+<h2>Data Analytics • Power BI • Power Platform</h2>
+
 <p>
-Air Force leader building data tools that solve real-world problems.
+I build dashboards, automation, and decision-support tools from messy operational data.
 </p>
 
 <p>
-Personal portfolio site currently under construction.
+Currently serving in the Air National Guard designing Power BI analytics systems used by hundreds of users across a 1,300-member organization.
 </p>
+
+<div class="buttons">
+
+<a href="https://linkedin.com/in/danielwisniewski-dev">LinkedIn</a>
 
 <a href="https://github.com/danielwisniewski-dev">GitHub</a>
-<a href="https://linkedin.com/in/danielwisniewski-dev">LinkedIn</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h3>What I Do</h3>
+
+<div class="cards">
+
+<div class="card">
+<h4>Analytics & Visualization</h4>
+<p>
+Design Power BI dashboards and analytics environments used by hundreds of users across operational organizations.
+</p>
+</div>
+
+<div class="card">
+<h4>Automation</h4>
+<p>
+Build Power Automate workflows and data pipelines that eliminate manual reporting processes and improve data accuracy.
+</p>
+</div>
+
+<div class="card">
+<h4>Data Engineering</h4>
+<p>
+Develop ETL pipelines integrating APIs, SQL databases, SharePoint, and operational data sources into scalable analytics systems.
+</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h3>Featured Projects (Coming Soon)</h3>
+
+<div class="cards">
+
+<div class="card">
+<h4>Retirement Planning Simulator</h4>
+<p>
+Monte Carlo style retirement modeling tool based on historical market performance and withdrawal strategies.
+</p>
+</div>
+
+<div class="card">
+<h4>Spanish Learning System</h4>
+<p>
+Adaptive flashcard learning system focused on the most commonly used Spanish vocabulary.
+</p>
+</div>
+
+<div class="card">
+<h4>Data Portfolio Projects</h4>
+<p>
+Additional analytics tools and dashboards demonstrating real-world data problem solving.
+</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 Daniel Wisniewski
+</div>
+
+</div>
 
 </body>
 </html>
